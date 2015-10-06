@@ -813,9 +813,9 @@
 
 /* Section/Article */
 	
-	article.special,
-	section.special,
-	header.special {
+	article.center,
+	section.center,
+	header.center {
 		text-align: center;
 	}
 
@@ -1142,9 +1142,9 @@
 				padding: 0.7em 1.5em 0.7em 1.5em;
 			}
 
-		/* Wrapper */
+		/* Display */
 
-			#wrapper {
+			#display {
 				width: 45em;
 				margin: 0 auto;
 				opacity: 0;
@@ -1238,7 +1238,7 @@
 
 		/* Panels */
 
-			#wrapper {
+			#display {
 				margin-top: 3em;
 			}
 
@@ -1314,9 +1314,9 @@
 				width: 100%;
 			}
 
-		/* Wrapper */
+		/* display */
 
-			#wrapper {
+			#display {
 				padding: 7px;
 			}
 

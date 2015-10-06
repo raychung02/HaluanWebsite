@@ -36,7 +36,7 @@
 			.viewport({
 				breakpoints: {
 					desktop: {
-						width: 1080,
+						width: 1000,
 						scalable: false
 					}
 				}
@@ -48,7 +48,7 @@
 					$panels = $main.find('.panel'),
 					$hbw = $('html,body,window'),
 					$footer = $('#footer'),
-					$wrapper = $('#wrapper'),
+					$display = $('#display'),
 					$nav = $('#nav'), $nav_links = $nav.find('a'),
 					$jumplinks = $('.jumplink'),
 					$form = $('form'),
@@ -74,9 +74,9 @@
 
 					$body._reposition = function() {
 						if (skel.vars.touch && (window.orientation == 0 || window.orientation == 180))
-							$wrapper.css('padding-top', Math.max((($window.height() - (panels[activePanelId].outerHeight() + $footer.outerHeight())) / 2) - $nav.height(), 30) + 'px');
+							$display.css('padding-top', Math.max((($window.height() - (panels[activePanelId].outerHeight() + $footer.outerHeight())) / 2) - $nav.height(), 30) + 'px');
 						else
-							$wrapper.css('padding-top', ((($window.height() - panels[firstPanelId].height()) / 2) - $nav.height()) + 'px');
+							$display.css('padding-top', ((($window.height() - panels[firstPanelId].height()) / 2) - $nav.height()) + 'px');
 					};
 
 				// Panels.
@@ -185,7 +185,7 @@
 					if (skel.vars.IEVersion < 9)
 						$window
 							.on('resize', function() {
-								$wrapper.css('min-height', $window.height());
+								$display.css('min-height', $window.height());
 							});
 
 				// Fix: Placeholder polyfill.
@@ -210,7 +210,7 @@
 					if (hash && hash in panels)
 						panels[hash]._activate(true);
 
-					$wrapper.fadeTo(400, 1.0);
+					$display.fadeTo(400, 1.0);
 
 			})
 			.on('-desktop', function() {
