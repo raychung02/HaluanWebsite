@@ -12,7 +12,7 @@ Haluan is the competitive hip-hop dance team housed under the Filipino Student A
 
 Live URL
 --------
-[raychung02.github.io/haluan](raychung02.github.io/haluan)
+[http://raychung02.github.io/haluan/](http://raychung02.github.io/haluan/)
 
 Technologies Used
 -----------------
