@@ -3,7 +3,7 @@ Haluan Website
 
 by Ray Chung
 
-Website for Haluan Hip-Hop Dance Troupe. Fully responsive and written in HTML5, CSS3, Javascript, and PHP.
+Website for Haluan Hip-Hop Dance Troupe. Fully responsive and written in HTML5, CSS3, Javascript, and PHP. Modified from HTML5UP Template.
 
 About Haluan
 --------------
