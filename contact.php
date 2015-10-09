@@ -12,7 +12,7 @@
 		$email = $_POST['email'];
 		$subject = $_POST['subject'];
 		$message = $_POST['message'];
-		$body = "Contact Form Submission - En Route Website.\r\n
+		$body = "Contact Form Submission - Haluan Website.\r\n
 				Name: {$name}\r\n
 				Email Address: {$email}\r\n
 				Subject: {$subject}\r\n
