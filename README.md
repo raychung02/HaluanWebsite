@@ -9,10 +9,11 @@ About Haluan
 --------------
 
 Haluan is the competitive hip-hop dance team housed under the Filipino Student Association at the University of California, Santa Cruz.
+[https://www.facebook.com/HaluanUCSC/](https://www.facebook.com/HaluanUCSC/)
 
-Live URL
+URL
 --------
-[http://raychung02.github.io/haluan/](http://raychung02.github.io/haluan/)
+[https://raychung02.github.io/HaluanWebsite/](https://raychung02.github.io/HaluanWebsite/)
 
 Technologies Used
 -----------------
